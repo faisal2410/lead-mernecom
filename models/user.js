@@ -63,6 +63,7 @@ const userSchema = new Schema(
       type: Array,
       default: [],
     },
+    resetCode: "",
     address: String,
     wishlist: [{ type: ObjectId, ref: "Product" }],
   },
